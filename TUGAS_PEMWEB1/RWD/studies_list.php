@@ -65,7 +65,7 @@ if (!empty($keyword)) {
             
             <?php if (isset($_SESSION['MEMBER'])) { ?> 
                 <td>
-                    <form method="POST" action="controller/studiesController.php">
+                    <form method="POST" action="controller/studies.php">
                         <a href="index.php?hal=studies_detail&id=<?= $studies['id'] ?>"
                             title="Detail" class="btn btn-info btn-sm">
                             <i class="bi bi-eye"></i>
